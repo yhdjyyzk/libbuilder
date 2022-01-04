@@ -4,7 +4,8 @@
 ## 如何使用
 1. 在项目目录下添加一个 `libbuilder.config.js`
 2. 按照 [webpack-merge](https://github.com/survivejs/webpack-merge) 的规则在 `libbuilder.config.js` 中配置自定义选项
-3. 运行命令 `libbuilder`
+3. 拉取代码，安装依赖. 运行 `npm link`, 将命令链接到全局
+4. 在项目下运行命令 `libbuilder`
 
 ## 配置项
 - `libName`: '' // 打包之后的名称
