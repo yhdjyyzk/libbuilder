@@ -1,3 +1,9 @@
 module.exports = {
-  // entry: './test/index0.js'
+  libName: 'testLib',
+  mini: true,
+  author: 'yhdjyyzk',
+  banner: 'build by libbuilder',
+  webpackConfig: {
+    entry: './test/index.js'
+  }
 }

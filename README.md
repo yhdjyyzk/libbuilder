@@ -9,7 +9,9 @@
 ## 配置项
 - `libName`: '' // 打包之后的名称
 - `mini`: false // 是否压缩
-- `webpackConfig`: undefined // webpack 的配置项，根据 [webpack-merge](https://github.com/survivejs/webpack-merge) 的规则
+- `author`: 'libbuilder' // 作者名称
+- `banner`: 'build by libbuilder' //
+- `webpackConfig`: {} // webpack 的配置项，根据 [webpack-merge](https://github.com/survivejs/webpack-merge) 的规则
 
 ## 注意事项
 1. `webpack5` 本身可处理 [webworker](https://webpack.docschina.org/guides/web-workers/)
