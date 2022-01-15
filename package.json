@@ -1,9 +1,11 @@
 {
-  "name": "libbuilder",
+  "name": "yhdjyyzk-libbuilder",
   "version": "0.0.1",
   "description": "a lib builder.",
   "main": "./lib/src/index.js",
-  "bin": "./lib/src/index.js",
+  "bin": {
+    "yhdjyyzk-libbuilder": "./bin/cli.js"
+  },
   "directories": {
     "lib": "lib"
   },
@@ -26,7 +28,7 @@
     "url": "https://github.com/yhdjyyzk/libbuilder/issues"
   },
   "homepage": "https://github.com/yhdjyyzk/libbuilder#readme",
-  "devDependencies": {
+  "dependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.5",
     "@babel/plugin-syntax-import-meta": "^7.10.4",
@@ -39,7 +41,7 @@
     "file-loader": "^6.2.0",
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
-    "mini-css-extract-plugin": "^2.4.5",
+    "mini-css-extract-plugin": "2.4.5",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "postcss-cssnext": "^3.1.1",
     "postcss-loader": "^6.2.1",
